@@ -1,0 +1,7 @@
+def make_car(model_name, manufacturer, **user_info):
+	user_info['model_name'] = model_name
+	user_info['manufacturer'] = manufacturer
+	return user_info
+
+car = make_car('Uno','Fiat',ano=2018,valor=37000,color='blue', tow_package=True)
+print(car)
