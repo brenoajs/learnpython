@@ -1,0 +1,10 @@
+def convert(minutes):
+	"""converte a quantidade de minutos em segundos"""
+	horas_convertidas = int(minutes) * 60
+	print(horas_convertidas)
+	return horas_convertidas
+
+
+convert(5)
+convert(3)
+convert(2)
